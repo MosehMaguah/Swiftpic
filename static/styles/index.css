@@ -1,0 +1,190 @@
+body {
+  width: auto;
+  height: auto;
+}
+
+.container-md {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  margin: 0px;
+  width: vw;
+  height: 70px;
+  background-color: #ff4500;
+}
+
+.list {
+  display: flex;
+  align-items: flex-end;
+  list-style: none;
+}
+
+.list img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.titles {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 300px;
+  flex-direction: column;
+  align-items: center;
+  background: url(../images/batuhan-dogan-XnYs6CYygRE-unsplash.jpg) center
+    center no-repeat;
+}
+
+.titles h1 {
+  font-size: 80px;
+  color: rgb(162, 183, 214);
+  font-family: "Sofia", sans-serif;
+  text-shadow: 3px 3px 3px #b73100;
+}
+
+.titles h2 {
+  font-size: 20px;
+  color: rgb(171, 171, 221);
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 90px;
+  padding-right: 100px;
+}
+
+.upload_form {
+  padding: 20px;
+  border-style: solid;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+.form img {
+  width: 70%;
+  height: 50%;
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.aboutus_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.aboutus_section img {
+    width: 70%;
+    height: 0%;
+    border-radius: 50px;
+    padding: 20px;
+    margin-left: 170px;
+}
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    width: 550px;
+    height: 300px;
+  }
+
+.aboutUs h2 {
+    font-size: 30px;
+  font-family: sans-serif;
+
+}
+
+.ourServices {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    background-color: #ff5914;
+    justify-content: space-around;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.services img {
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+}
+
+.services h4 {
+    font-size: 20px;
+}
+
+.services h5 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.services div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services_head {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-color: #ff5914;
+}
+
+.footer label {
+  padding: 30px;
+  margin-right: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+.footer h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+}
+
+.form-control {
+  margin-top: 10px;
+}
+
+.contactUs button {
+  margin: 10px;
+}
+
+.theEnd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  width: 10p;
+  height: 70px;
+  background-color: #ff4500;
+}
+
+.theEnd h4 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+}
